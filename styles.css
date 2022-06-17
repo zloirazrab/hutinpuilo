@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+}
+
+header,
+footer {
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+
+    background-color: #e7187c;
+    height: 100px;
+    margin: 0;
+
+    font-size: 32px;
+    color: #fef5f9;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+}
+
+main {
+    background: #fff8fd;
+    padding: 35px;
+
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+img {
+    height: 260px;
+    width: 260px;
+    margin: 10px;
+}
+
+aside {
+    background: #ffe6f8;
+    width: 450px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    list-style: none;
+
+    background-color: #fff8fd;
+    color: #2f1f2e;
+
+    top: 15px;
+    height: 180px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+
+    box-sizing: border-box;
+    position: sticky;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*  Side Notes
+
+in order for divs to be 100% of the height of their parent, the parent has to have a defined height.
+
+the browser can't calculate 100%(or inherit) of something that hasn't been fully rendered yet.
+
+Equal-Height Columns (CSS Grid, Flexbox, Floated Containers, & Table Methods) – https://matthewjamestaylor.com/equal-height-columns
+
+*/
