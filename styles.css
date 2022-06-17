@@ -70,6 +70,12 @@ aside {
     text-overflow: ellipsis;
 }
 
+@media screen and (max-width: 540px) {
+    aside {
+        width: 500px;
+    }
+}
+
 /*  Side Notes
 
 in order for divs to be 100% of the height of their parent, the parent has to have a defined height.
