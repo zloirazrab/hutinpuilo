@@ -70,7 +70,7 @@ aside {
     text-overflow: ellipsis;
 }
 
-@media screen and (max-width: 540px) {
+@media max-width: 540px {
     aside {
         width: 500px;
     }
